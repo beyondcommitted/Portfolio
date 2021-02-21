@@ -1,0 +1,21 @@
+* { font-family:'Times New Roman', Times, serif;
+    color:white;
+     
+
+}
+
+body {
+    background-color:black
+}
+.header {
+    background-color:red;
+    margin:0;
+    width:100%;
+    position:fixed;
+    padding:0;
+}
+
+nav ul {
+    float:right;
+    display:block;
+}
