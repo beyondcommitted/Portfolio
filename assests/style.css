@@ -1,21 +1,17 @@
 * { font-family:'Times New Roman', Times, serif;
-    color:black;
+    color: white;
      }
 
 body {
-    background-color:honeydew;
+    background-color:black;
     margin:0;
 }
 .header {
-    /* background-image: url("https://images.unsplash.com/photo-1483528237748-d9d8b5cae06d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"); */
-     background-repeat: no-repeat; 
-     background-size: cover;
-     padding: 50px;
      font-size: 22px;
      border-style: outset;
      border-width: thick;
      border-color:gray;
-     
+     padding-bottom:  20px;
 }
 
 nav a {
@@ -24,6 +20,13 @@ nav a {
 }
 
 .header img {
+    width: 98%;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: double;
+    border-color: aliceblue;
     }
 
 section img {
@@ -34,8 +37,26 @@ section img {
     border-width: thick;
 }
 
+#breon img {
+    margin: 20px auto;
+    width: 250px;
+    height: 350px;
+}
+
 .header li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+}
+
+footer {
+    border-style: outset;
+    border-color: gray;
+    border-width: thick;
+    margin-top: 20px;
+}
+
+section img:hover {
+    box-shadow: inset;
+    
 }
