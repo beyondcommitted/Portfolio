@@ -7,6 +7,7 @@ body {
     margin:0;
 }
 .header {
+     font-family: Georgia, 'Times New Roman', Times, serif;
      font-size: 22px;
      border-style: outset;
      border-width: thick;
@@ -19,6 +20,19 @@ nav a {
     display: inline-block;
 }
 
+/* nav li { 
+    border-style: outset;
+    border-color: hsl(355, 65%, 57%);
+    border-width: 25px; */
+    
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+
+}
+
 .header img {
     width: 98%;
     height: 200px;
@@ -26,7 +40,7 @@ nav a {
     margin-left: auto;
     margin-right: auto;
     border-style: double;
-    border-color: aliceblue;
+    border-color: hsl(355, 65%, 57%);
     }
 
 section img {
@@ -37,10 +51,21 @@ section img {
     border-width: thick;
 }
 
+.breon:hover {
+    transform:scale(1.5)
+}
+
 #breon img {
     margin: 20px auto;
     width: 250px;
     height: 350px;
+}
+
+header h2 {
+    background-color: hsl(355, 65%, 57%);
+    border-style: groove;
+    border-width: thick;
+    border-color: purple;
 }
 
 .header li {
@@ -56,7 +81,8 @@ footer {
     margin-top: 20px;
 }
 
-section img:hover {
-    box-shadow: inset;
-    
+.button:hover {
+    /* transform: rotate(10deg); */
+    /* transform: skew(20deg);  */
+    transform: scale(1.1); 
 }
