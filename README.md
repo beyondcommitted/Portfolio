@@ -3,8 +3,10 @@
 ## Desciption
 
 ```
-In this portfolio I tell you a little about myself and the journey I've been on. You also will get a small sense of my values and ther attributes that will transfer into my career as a developer.
-This porfolio is responsive and will give access to many of tyhe applications I have developed. If ever there is a need to contact me this page will guide you to the information to do so. 
+In this portfolio I tell you a little about myself and the journey I've been on. 
+You also will get a small sense of my values and ther attributes that will transfer into my career as a developer.
+This porfolio is responsive and will give access to many of tyhe applications I have developed. 
+If ever there is a need to contact me this page will guide you to the information to do so. 
 
  ```
  Below are the needed links to the submit this application to be graded:<br>
