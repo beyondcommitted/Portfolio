@@ -20,9 +20,10 @@ body {
      padding-bottom:  20px;
 }
 
-nav a {
-    position: relative;
-    display: inline-block;
+.header li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
 }
 
 nav li { 
@@ -34,9 +35,10 @@ nav li {
 }
     
 div {
-    border-style:outset;
+    border-style:inset;
     border-width: thick;
     border-color: var(--green);
+    border-top-color: var(--gray);
     margin-right: auto;
     margin-left: auto;
     width: 60%;
@@ -48,8 +50,9 @@ div {
 }
 
 .work {
+    background-color: var(--green);
     margin-bottom: auto;
-    border-style: groove;
+    border-style: ridge;
     border-width: thick;
     border-color: var(--gray);
     text-align: center;
@@ -99,18 +102,12 @@ section img {
     height: 350px;
 }
 
-header h2 {
+header h2 { 
     background-color: var(--green);
     border-style: groove;
     border-width: thick;
     border-color: var(--gray)
-}
-
-.header li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
+} 
 
 footer {
     border-style: outset;
@@ -119,6 +116,7 @@ footer {
     margin-top: 20px;
 }
 footer li {
+    list-style-type: none;
     width: 140px;
     text-align: center;
 }
@@ -129,5 +127,26 @@ footer li {
 }
 
 @media screen and (max-width: 768px) {
+    body {
+        background-color: navy;
+    } 
+
+}
+
+@media screen and (max-width: 700px) {
+
+    nav ul {
+        display:flex;
+        flex-direction: column;
+        
+    }
+    * {
+        color:black
+    }
+
+    body {
+        background-color: rgb(245, 245, 250);
+    
+    } 
 
 }
