@@ -43,4 +43,4 @@ THEN they are presented with a responsive layout that adapts to their viewport
 
 The following screenshot is of the finished Web Application:
 
-![portfolio demo](assests\images\Screenshot.png)
+![portfolio demo](https://github.com/beyondcommitted/Portfolio/blob/main/assests/images/Screenshot.png?raw=true)
